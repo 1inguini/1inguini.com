@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "import": "cdk8s import -l typescript --no-class-prefix"
+  },
+  "imports": {
+    "cdk8s": "https://esm.sh/cdk8s@2.7.32",
+    "constructs": "https://esm.sh/constructs@10.1.277"
+  }
+}
